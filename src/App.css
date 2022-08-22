@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  padding-top: 20px;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+.contTitle{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: grey;
+}
+.contCards{
+  display: flex;
+  flex-direction: row;
+  row-gap: 15px;
+  column-gap: 15px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+  background-color: rgba(9, 244, 244, 0.747);
+  border: 2px solid#aaa9;
+  width: 297.5px;
+  padding: 15px;
+  line-height: 30px;
+  transition: transform 50ms ease;
+  border-radius: 10px;
+}
+.card:hover{
+  transform: scale(1.01);
+  transition: transform 10ms ease;
+}
+.name{
+  font-size: 25px;
+  font-weight: 700;
+}
+.email{
+  font-size: 17px;
+}
+.birthday{
+  font-size: 17px;
+}
+.contBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50px;
+  padding-top: 15px;
+
+}
+.contBtn button{
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn1{
+  background-color: orangered;
+  color: aliceblue;
+  border: 3px solid orangered;
+  transition: 50ms ease;
+  transform: translate(-35px);
+}
+.btn1:hover{
+  border: 1px solid snow;
+  transition: 10ms ease;
+}
+.btn2{
+  position: relative;
+  background-color: green;
+  color: aliceblue;
+  border: 3px solid green;
+  transition: 50ms ease;
+  transform: translate(35px);
+}
+.btn2:hover{
+  border: 1px solid snow;
+  transition: 10ms ease;
+}
+.contTitle h1{
+ padding-top: 60px;
+}
+.formCont{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.form{
+  border: 1px solid rgba(204, 204, 204, 0.708);
+  padding: 20px;
+  width: max-content;
+  height: 200px;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.451);
+  list-style: none;
+}
+.btnBox{
+  
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btnForm{
+  position: relative;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(0, 153, 255);
+  color: aliceblue;
+  border: none;
+  transform: translate(60px, 30px);
+  transition: 0.3s ease;
+}
+.btnForm:hover{
+  display: flex;
+  text-align: center;
+  width: 127px;
+  height: 34px;
+  border: 1px solid snow;
+  transition: 0.01s ease;
+}
+.firstname input{
+ border: none;
+ background-color: rgba(255, 192, 203, 0.423);
+ width: 181px;
+ border-radius: 5px;
+}
+.lastname input{
+  border: none;
+  background-color: rgba(255, 192, 203, 0.423);
+  width: 183px; 
+  border-radius: 5px;
+}
+.email input{
+  border: none;
+  background-color: rgba(255, 192, 203, 0.423);
+  width: 213px; 
+  border-radius: 5px;
+}
+.password input{
+  border: none;
+  background-color: rgba(255, 192, 203, 0.423);
+  width: 192px; 
+  border-radius: 5px;
+}
+.birthday input{
+  border: none;
+  background-color: rgba(255, 192, 203, 0.423);
+  width: 193px; 
+  border-radius: 5px;
+}
